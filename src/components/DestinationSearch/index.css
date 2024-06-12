@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+h1 {
+  text-align: center;
+}
+.search-cont {
+  width: 35vw;
+  height: 3vh;
+  background-color: #e6e4df;
+  align-self: center;
+  border-width: 0px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.search-icon {
+  width: 3vw;
+  height: 3vh;
+  align-self: flex-end;
+}
+input {
+  background-color: #e6e4df;
+  border-width: 0px;
+  width: 30vw;
+}

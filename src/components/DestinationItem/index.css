@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.item {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 30vw;
+  padding: 5px;
+  margin: 3px;
+}
+
+img {
+  height: 25vh;
+  width: 25vw;
+}
